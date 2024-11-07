@@ -7,20 +7,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.2 # sau ultima versiune disponibilă
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
-  uses-material-design: true
-
   assets:
-    - assets/HomeCard.png
+    - assets/data.json
+    - assets/profile.png
     - assets/imag1.png
     - assets/imag2.png
     - assets/imag3.png
     - assets/imag4.png
-    - assets/imag5.png
-    - assets/imag6.png
-    - assets/imag7.png
+    - assets/HomeCard.png
